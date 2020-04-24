@@ -1,0 +1,23 @@
+<h1> My Welcome 's</h1>
+
+
+
+
+<table>
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>Welcome msg</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <!-- // *ngFor="let permission of permissions" -->
+        <tr *ngFor="let welocome of welocomes">
+            <td>{{welocome.id}}</td>
+            <td>{{welocome.message}}</td>
+
+        </tr>
+
+    </tbody>
+</table>
